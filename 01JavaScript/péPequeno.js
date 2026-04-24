@@ -1,4 +1,3 @@
-// alert("pé pequeno")
 
 // informações
 let preco, qnt
