@@ -24,6 +24,7 @@
 
 // =============================================
 
+// informações
 let vitorias, empates
 let pontos
 
