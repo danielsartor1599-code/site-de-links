@@ -14,4 +14,4 @@ qntVendidas = qntIniciaLaranjas + qntFinal
 
 // saidas
 
-alert ("Quantidade Final VEndidas: " + qntVendidas)
+alert ("Quantidade Final Vendidas: " + qntVendidas)
