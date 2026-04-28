@@ -5,12 +5,12 @@ let qntVendidas
 
 // leituras
 
-Number = (prompt("Quantidade Inical de Laranjas: "))
-Number = (prompt("Quantidade Final de Laranjas: "))
+qntIniciaLaranjas = Number  (prompt("Quantidade Inical de Laranjas: "))
+qntFinal = Number  (prompt("Quantidade Final de Laranjas: "))
 
 // processamentos
 
-qntVendidas = qntIniciaLaranjas + qntFinal
+qntVendidas = qntIniciaLaranjas - qntFinal
 
 // saidas
 
