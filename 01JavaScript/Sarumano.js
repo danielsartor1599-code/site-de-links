@@ -1,14 +1,14 @@
 // informações
-let shows,bombas
-quantidade
+let shows
+let quantidade
 
 // leituras
 
 shows = Number(prompt("Quantidades de Shows: "))
-
+quantidade = Number
 // processamentos
 
-quantidade = shows + bombas*7
+quantidade = shows*7
 
 // saídas
 
