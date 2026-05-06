@@ -1,12 +1,78 @@
-
 let resposta = document.getElementById('resultado')
+
+function Calculadora(){
+
+    // informações
+
+    let n1 , n2 
+    let operacao 
+    let resultado
+
+    // leituras
+
+    n1 = Number(prompt("Digite um número:"))
+
+    n2 = Number(prompt("Digite um número:"))
+
+    operacao = (prompt("Qual operação deseja:"))
+
+// processamento
+
+if(operacao == "+"){
+    resultado = n1 + n2
+}else if(operacao == "-"){
+    resultado = n1 - n2
+}else if(operacao == "/"){
+    resultado = n1 / n2
+}else if(operacao == "*"){
+    resultado = n1 * n2
+}
+
+// saídas
+
+alert("=" + resultado)
+
+}
+
+function ParImpar(){
+
+    // informações
+
+    let n = Number(prompt("Digite um número:"))
+
+    if(n%2 == 0){alert("PAR")}
+
+    else{alert("IMPAR")}
+
+}
+
 function DiaDaSemana(){
     // informações
-    let numero = Math.ceil
+    let numero , dia
 
-    let chute = Number(prompt("Qual o Número: "))
+    // leituras
 
-    if(chute == numero){resposta.innerHTML = "segunda"}
+    numero = Number(prompt("Digite um Número:"))
+
+    // processamento
+
+    if(numero == 1){dia = "Domingo"}
+    
+    else if(numero = 2){dia = "Segunda"}
+    
+    else if(numero = 3){dia = "Terça"}
+    
+    else if(numero = 4){dia = "Qaurta"}
+    
+    else if(numero = 5){dia = "Quinta"}
+    
+    else if(numero = 6){dia = "Sexta"}
+    
+    else if(numero = 7){dia = "Sábado"}
+
+    // saida
+
+    document.getElementById('resultado').innerHTML = "Dia escolhido:" + dia
 }
 function verificandoIdade(){
     
