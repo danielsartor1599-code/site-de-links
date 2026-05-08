@@ -1,5 +1,55 @@
 let resposta = document.getElementById('resultado')
 
+function tempoPercorrido(){
+
+    // informações
+
+    let distanciaLuz = 1 
+    let distanciaPercorrida
+    let corrida
+
+    // entradas
+
+    distanciaPercorrida = Number(prompt("Qual distância a ser percorrida? "))
+    distanciaLuz = Number(1)
+    corrida = Number
+
+    // processamentos
+
+    corrida = distanciaLuz
+
+    // saídas
+
+    alert("tempo Total da Corrida: " + corrida)
+}
+
+function PlumasDeAvalon(){
+    
+    // informações
+    let salario,emprestimo,nPrestacoes
+    let valor
+
+    // leituras
+
+    salario = Number(prompt("Qual seu salário R$: "))
+    emprestimo = Number(prompt("Quanto de empréstimo pretende R$: "))
+    nPrestacoes = Number(prompt("Nº prestações: "))
+    valor = Number
+    
+    // processamentos
+
+    valor = emprestimo / nPrestacoes
+
+    if(valor <= 0.3 * salario){alert("empréstimo liberado!!")}
+    
+    else{alert("empréstimo negado!")}
+
+    // saídas
+
+    alert("valor da prestação R$ = " + valor.toFixed(2))
+
+}
+
 function Calculadora(){
 
     // informações
