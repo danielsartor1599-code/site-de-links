@@ -5,7 +5,7 @@ function tempoPercorrido(){
     // informações
 
     let distancia
-    let temposeg,tempomin    
+    let temposeg,tempomin,tempoHor,tempoDia,tempoMes,tempoAno
 
     // entradas
 
@@ -16,13 +16,33 @@ function tempoPercorrido(){
     temposeg = distancia/ 300000
     
     // saídas
-    resposta.innerHTML = temposeg + "segundo(s)"
+    resposta.innerHTML = "<br>" + temposeg + "segundo(s)"
     
     // segunda etapa
 
     if(temposeg > 60){
     tempomin = temposeg/60
     resposta.innerHTML += "<br>Ou " + tempomin + "minuto(s)"
+
+    if(tempomin > 60){
+        tempoHor = tempomin/60
+        resposta.innerHTML += "<br>Ou " + tempoHor + "hora(s)"
+
+    if(tempoHor > 24){
+        tempoDia = tempoHor/24
+        resposta.innerHTML += "<br>Ou " + tempoDia + "Dia(s)"
+
+    if(tempoDia > 30){
+        tempoMes = tempoDia/30
+        resposta.innerHTML += "<br>Ou " + tempoMes + "Mês(s)"
+
+    if(tempoMes > 12){
+        tempoAno = tempoMes/12
+        resposta.innerHTML += "<br>Ou " + tempoAno + "Ano(s)"
+    }
+    }
+    }
+    }
 
     }
 
