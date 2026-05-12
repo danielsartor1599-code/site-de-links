@@ -4,23 +4,28 @@ function tempoPercorrido(){
 
     // informações
 
-    let distanciaLuz = 1 
-    let distanciaPercorrida
-    let corrida
+    let distancia
+    let temposeg,tempomin    
 
     // entradas
 
-    distanciaPercorrida = Number(prompt("Qual distância a ser percorrida? "))
-    distanciaLuz = Number(1)
-    corrida = Number
-
+    distancia = Number(prompt("Qual distância a ser percorrida? "))    
+   
     // processamentos
 
-    corrida = distanciaLuz
-
+    temposeg = distancia/ 300000
+    
     // saídas
+    resposta.innerHTML = temposeg + "segundo(s)"
+    
+    // segunda etapa
 
-    alert("tempo Total da Corrida: " + corrida)
+    if(temposeg > 60){
+    tempomin = temposeg/60
+    resposta.innerHTML += "<br>Ou " + tempomin + "minuto(s)"
+
+    }
+
 }
 
 function PlumasDeAvalon(){
