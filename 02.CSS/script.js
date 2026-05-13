@@ -1,5 +1,17 @@
 let resposta = document.getElementById('resultado')
 
+function QualApizza(){
+
+    let grande,media,pequena
+    let pizza
+
+    pizza = prompt("Qual o tamanho da Pizza: ")
+
+    if(grande){
+        
+    }
+}
+
 function tempoPercorrido(){
 
     // informações
