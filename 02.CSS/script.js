@@ -1,15 +1,24 @@
 let resposta = document.getElementById('resultado')
 
-function QualApizza(){
+function JogoAdivinhacao(){
 
-    let grande,media,pequena
-    let pizza
+    // infos
 
-    pizza = prompt("Qual o tamanho da Pizza: ")
+let nº
+let respota = 10
 
-    if(grande){
-        
-    }
+// entradas
+
+nº = Number(prompt("Escolha um Número: "))
+resposta = Number (10)
+
+// processamentos
+// saídas
+
+if(nº = resposta){
+    resposta.innerHTML = "Você Acertou,Parabéns!!"
+}
+else{resposta.innerHTML = "Você Errou,tente novamente!!"}
 }
 
 function tempoPercorrido(){
@@ -198,7 +207,8 @@ function verificarProvisoes(){
     if(marujos >= 10 && comidaPorMarujo >= 1.5){ // ||
         document.getElementById('resultado').innerHTML = "<br>Provisões suficientes. <br>Rumo ao horizonte!"}
     
-    else{document.getElementById('resultado').innerHTML = "<br>Algo está errado. <br>Ninguém no Mar hoje."}
+    else{
+        document.getElementById('resultado').innerHTML = "<br>Algo está errado. <br>Ninguém no Mar hoje."}
 }
 function calcularPrecoBrique(){
     
