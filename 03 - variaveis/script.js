@@ -1,8 +1,5 @@
 
-let dado = 0
-function RegistrarDado(){
 
-}
 
 let total = 0
 function registrarVenda(){
